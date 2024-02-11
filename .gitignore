@@ -1,0 +1,4 @@
+dist
+.adminjs
+node_modules
+.env

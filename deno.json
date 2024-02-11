@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run --watch -A src/app.ts",
+    "setup": "deno run --allow-read --allow-run scripts/setup.ts"
+  }
+}
