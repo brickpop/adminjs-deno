@@ -10,6 +10,12 @@ The current implementation of AdminJS needs a minor workaround:
 deno task setup
 ```
 
+Then, define your settings on the `.env` file:
+
+```sh
+cp .env.example .env
+```
+
 Then, start the server with:
 
 ```sh
