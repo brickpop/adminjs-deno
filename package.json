@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
   "dependencies": {
     "@adminjs/express": "^6.1.0",
     "@adminjs/mongoose": "^4.0.0",
-    "adminjs": "^7.4.1",
+    "adminjs": "^7.7.2",
     "express": "^4.18.2",
     "express-formidable": "^1.2.0",
     "express-session": "^1.17.3",

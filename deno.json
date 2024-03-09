@@ -1,6 +1,7 @@
 {
   "tasks": {
     "dev": "deno run --watch -A src/app.ts",
-    "setup": "deno run --allow-read --allow-run scripts/setup.ts"
+    "dev:db": "mkdir -p ./dev-db && docker run --rm -it -p 27017:27017 -v ./dev-db:/data mongo",
+    "start": "deno run --allow-read --allow-write=.adminjs --allow-env --allow-ffi --allow-sys --allow-net src/app.ts"
   }
 }
